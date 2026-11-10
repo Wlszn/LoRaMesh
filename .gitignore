@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+# Editors
+.vscode/
+.idea/
+# PlatformIO / Arduino build output
+.pio/
+build/
+# Secrets — never commit
+*.key
+*.pem
+.env
+secrets*
