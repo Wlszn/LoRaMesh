@@ -15,7 +15,7 @@
      Status: in hand and powered on / ordered / dropped. -->
 | Type | Manufacturer | Model | Qty | Owner / where ordered | Status today |
 |---|---|---|---|---|---|
-| LoRa board |  |  |  |  |  |
+| LoRa board | Heltc | VR | 2 | Amazon  | Delivered |
 | Antenna |  |  |  |  |  |
 | USB cable |  |  |  |  |  |
 | Battery / power |  |  |  |  |  |
@@ -29,7 +29,7 @@ Work is done on: TODO (exact laptop model and OS version).
 <!-- Only things actually installed today. -->
 | Name | Version | Command that showed the version | Role in the project |
 |---|---|---|---|
-|  |  |  |  |
+| Meshcore Repeater | v1.18.0 |  |  |
 
 **Dropped from the Lab 7 plan:** TODO (one line — what and why).
 
