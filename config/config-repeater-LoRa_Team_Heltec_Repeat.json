@@ -1,0 +1,53 @@
+{
+  "vars": {
+    "name": "LoRa Team Heltec Repeat",
+    "repeat": true,
+    "allow.read.only": false,
+    "radio": {
+      "freq": "910.525",
+      "bw": "62.5",
+      "sf": "7",
+      "cr": "5"
+    },
+    "tx": 10,
+    "af": 1,
+    "rxdelay": 0,
+    "txdelay": 0.5,
+    "direct.txdelay": 0.3,
+    "flood.max": 64,
+    "flood.max.unscoped": 64,
+    "flood.max.advert": 8,
+    "flood.advert.interval": 47,
+    "advert.interval": 0,
+    "guest.password": "",
+    "lat": 45.51459,
+    "lon": -73.67433,
+    "int.thresh": 0,
+    "agc.reset.interval": 0,
+    "multi.acks": "0",
+    "owner.info": "Belongs to LoRa team for Advanced Network team at Vanier College",
+    "path.hash.mode": 1,
+    "loop.detect": "minimal",
+    "cad": false,
+    "radio.rxgain": true,
+    "adc.multiplier": 5.42,
+    "prv.key": "D0FA0661B9C05DD614942AD227774B43AF3242DFDA255C748E896255AEA7AC4076590A18204FBA0255EF3C54A2872FC5C647BAAD7E3915674393091B29E3028E"
+  },
+  "regions": {
+    "default": null,
+    "home": "*",
+    "list": [
+      {
+        "name": "*",
+        "parent": null,
+        "flood": true
+      }
+    ]
+  },
+  "acl": [
+    {
+      "pubkey": "b45e4849ca73634ebd842c03eb11002a64d52c0b99a2301133fd5298cb9949ec",
+      "perms": 3
+    }
+  ]
+}
